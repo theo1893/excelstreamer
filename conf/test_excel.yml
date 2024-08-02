@@ -1,0 +1,128 @@
+Sheets:
+  - SheetName: Profile from China
+    Anchor: address.country=China
+    Hide: false
+    Fields:
+      - Source: born_in
+        Header: BornIn
+        Width: 25
+        Format: TIMESTAMP:2006-01-02
+        HeaderStyle: '{"font":{"bold":true},"alignment":{"horizontal":"right"}}'
+        DataStyle: '{"font":{"bold":true},"alignment":{"horizontal":"right"}}'
+      - Source: first_name
+        Header: FirstName
+        Width: 25
+      - Source: last_name
+        Header: LastName
+        Width: 25
+      - Source: alias
+        Header: Alias
+        Width: 25
+      - Source: address.country
+        Header: Country
+        Width: 25
+      - Source: address.city
+        Header: City
+        Width: 25
+      - Source: address.street
+        Header: Street
+        Width: 25
+      - Source: family.father
+        Header: Father
+        Width: 25
+      - Source: family.mother
+        Header: Mother
+        Width: 25
+      - Source: family.daughter
+        Header: Daughter
+        Width: 25
+      - Source: family.son
+        Header: Son
+        Width: 25
+      - Source: college
+        Header: College
+        Width: 25
+      - Source: company
+        Header: Company
+        Width: 25
+      - Source: salary
+        Header: Salary
+        Width: 25
+      - Source: debt
+        Header: Debt
+        Width: 25
+      - Source: age
+        Header: Age
+        Width: 25
+      - Source: height
+        Header: Height
+        Width: 25
+      - Source: length_of_service
+        Header: LengthOfService
+        Width: 25
+
+
+  - SheetName: Profile from America
+    Anchor: address.country=America
+    Hide: false
+    Fields:
+      - Source: born_in
+        Header: BornIn
+        Width: 25
+        Format: TIMESTAMP:2006-01-02
+        HeaderStyle: '{"font":{"bold":true},"alignment":{"horizontal":"right"}}'
+        DataStyle: '{"font":{"bold":true},"alignment":{"horizontal":"right"}}'
+      - Source: first_name
+        Header: FirstName
+        Width: 25
+      - Source: last_name
+        Header: LastName
+        Width: 25
+      - Source: alias
+        Header: Alias
+        Width: 25
+      - Source: address.country
+        Header: Country
+        Width: 25
+      - Source: address.city
+        Header: City
+        Width: 25
+      - Source: address.street
+        Header: Street
+        Width: 25
+      - Source: family.father
+        Header: Father
+        Width: 25
+      - Source: family.mother
+        Header: Mother
+        Width: 25
+      - Source: family.daughter
+        Header: Daughter
+        Width: 25
+      - Source: family.son
+        Header: Son
+        Width: 25
+      - Source: college
+        Header: College
+        Width: 25
+      - Source: company
+        Header: Company
+        Width: 25
+      - Source: salary
+        Header: Salary
+        Width: 25
+      - Source: debt
+        Header: Debt
+        Width: 25
+      - Source: age
+        Header: Age
+        Width: 25
+      - Source: height
+        Header: Height
+        Width: 25
+      - Source: length_of_service
+        Header: LengthOfService
+        Width: 25
+
+
+
