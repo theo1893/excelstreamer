@@ -1,6 +1,6 @@
 # ExcelStreamer
 
-This package is based on package Excelize for writing data to Excel file, in all-stream style. This can be used to generate Excel files of which the struture is as simple as below, but the data scale is **very** large. 
+A go package for writing data to Excel file, in all-stream style. This can be used to generate Excel files of which the struture is as simple as below, but the data scale is **very** large. 
 
 ![excel](./assets/excel.png)
 
