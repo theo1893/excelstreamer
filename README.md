@@ -39,6 +39,12 @@ For the configuration file, the keywords and the corresponsing influence are sho
 * HeaderStyle: determining how the header is renderred. This is consistent with the Style from package Excelize.
 * DataStyle: determining how the data is renderred. This is consistent with the Style from package Excelize.
 
+# Installation
+
+```shell
+go get -u github.com/theo1893/excelstreamer
+```
+
 # Quick Start
 
 You can follow the steps below to build an excel stream writer simplely.

@@ -8,7 +8,6 @@ import (
 	"github.com/theo1893/excelstreamer/streamer"
 	"github.com/xuri/excelize/v2"
 	"gopkg.in/yaml.v3"
-	"log"
 	"os"
 	"strings"
 )
@@ -80,10 +79,11 @@ func NewExcelStreamWriter(template string, confFile string, dstFile string) (str
 
 	// add flush as release func
 	s.AddReleaseFunc(func() {
-		_ = excelStreamWriter.Flush()
-		_ = file.SaveAs(dstFile)
-		_ = file.Close()
-		log.Println("Release func is called.")
+		if s.Error() == nil {
+			_ = excelStreamWriter.Flush()
+			_ = file.SaveAs(dstFile)
+			_ = file.Close()
+		}
 	})
 
 	return s, nil

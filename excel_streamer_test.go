@@ -45,6 +45,7 @@ func Test(t *testing.T) {
 	// Step3: Put data into the input channel, and listen to the status of streamer
 	for i := 0; i < epoch; i++ {
 		mockData := MockDataGenerate()
+		//mockData := 1
 		select {
 		// the streamer has been aborted for some reason
 		case <-s.Aborted():
