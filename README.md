@@ -20,7 +20,7 @@ The Streamer should contain at least one input channel, or it cannnot start beca
 
 ![excel_writer](./assets/excel_writer.png)
 
-To driver an Excel Writer, we need prepare two things: 
+To drive an Excel Writer, we need prepare two things: 
 
 * The input raw data in **json string**
 * Predefined configuration determining how to format the data and where to put them
