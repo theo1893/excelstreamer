@@ -27,17 +27,21 @@ To drive an Excel Writer, we need prepare two things:
 
 For the configuration file, the keywords and the corresponsing influence are shown below:
 
-* Sheets: Contains all the defined sheets.
-* SheetName: The name of this sheet.
-* Anchor: The anchor for data to be put in this sheet. The parser inside supports **and(&&)** operation and **or(||)** operation, and also recursive search.
-* Hide: Whether this sheet will be shown.
-* Fields: Contains all the fields in this sheet.
-* Source: Determining from which the data within this field comes. The parser inside supports recursive search.
-* Header: The header for this field, and is going to be shown in the first row.
-* Width: The width of the col.
-* Format: determining how to format the data. Currently only **TIMESTAMP** is supported, but you can register custom format function if you need.
-* HeaderStyle: determining how the header is renderred. This is consistent with the Style from package Excelize.
-* DataStyle: determining how the data is renderred. This is consistent with the Style from package Excelize.
+| Keyword     | Meaning                                                      |
+| ----------- | ------------------------------------------------------------ |
+| Sheets      | Contains all the defined sheets.                             |
+| SheetName   | The name of this sheet.                                      |
+| Anchor      | The anchor for data to be put in this sheet. The parser inside supports **and(&&)** operation and **or**(\|\|) operation, and also recursive search. |
+| Hide        | Whether this sheet will be shown.                            |
+| Fields      | Contains all the fields in this sheet.                       |
+| Source      | Determining from which the data within this field comes. The parser inside supports recursive search. |
+| Header      | The header for this field, and is going to be shown in the first row. |
+| Width       | The width of the col.                                        |
+| Format      | Determining how to format the data. Currently only **TIMESTAMP** is supported, but you can register custom format function if you need. |
+| HeaderStyle | Determining how the header is renderred. This is consistent with the Style from package Excelize. |
+| DataStyle   | Determining how the data is renderred. This is consistent with the Style from package Excelize. |
+
+You can refer to the demo configuration file located in **conf/test_excel.yml**
 
 # Installation
 
